@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { DinamycFilterListComponent } from './dinamyc-filter-list/dinamyc-filter-list.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [DinamycFilterListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
